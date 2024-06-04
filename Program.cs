@@ -25,10 +25,6 @@ void Nav()
                 var delete = new Delete();
                 delete.Query();
                 break;
-
-            default:
-                Nav();
-                break;
         }
     }
 }
